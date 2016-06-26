@@ -43,6 +43,7 @@ The text parameter should be replaced with the query that the user enters into t
 
 The JSON response you'll receive will have items described like this example.
 
+```
 {
 "id": "23451156376",
 "owner": "28017113@N08",
@@ -54,14 +55,19 @@ The JSON response you'll receive will have items described like this example.
 "isfriend": 0,
 "isfamily": 0
 },
+```
 
 You can use these parameters to get the full URL of the photo:
 
+```
 http://farm{farm}.static.flickr.com/{server}/{id}_{secret}.jpg
+```
 
 So, using our example from before, the URL would be
 
+```
 http://farm1.static.flickr.com/578/23451156376_8983a8ebc7.jpg
+```
 
 If interested, more documentation about the search endpoint can be found at https://www.flickr.com/services/api/explore/flickr.photos.search. If you have any problems with the Uber-specified API key, then you can generate your own at https://www.flickr.com/services/api/misc.api_keys.html.
 
