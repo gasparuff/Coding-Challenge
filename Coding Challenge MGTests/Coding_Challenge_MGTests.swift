@@ -194,9 +194,9 @@ class Coding_Challenge_MGTests: XCTestCase {
         }
     }
     
-    // MARK: API Cli-ent tests
+    // MARK: API Client tests
     
-    func testApiClientSearchExample(){
+    func testAPIClientSearchExample(){
         let searchTerm = "Kitten"
         
         let searchExpectation = expectationWithDescription("Searching for \(searchTerm)")
@@ -217,7 +217,7 @@ class Coding_Challenge_MGTests: XCTestCase {
     }
     
     // MARK: Mocked responses
-    func testApiClientSearchResponseStatFailExample(){
+    func testAPIClientSearchResponseStatFailExample(){
         let searchTerm = "Kitten"
     
         let stateExpectation = expectationWithDescription("Returning wrong state from server")
@@ -331,7 +331,7 @@ class Coding_Challenge_MGTests: XCTestCase {
         
     }
     
-    func testAPIClientLoadImageSlowNetwork() {
+    func testAPIClientLoadImageSlowNetworkExample() {
         let searchTerm = "Kitten"
         
         let slowNetworkExpectation = expectationWithDescription("Loading image on slow connection")
@@ -346,7 +346,6 @@ class Coding_Challenge_MGTests: XCTestCase {
                 headers: [ "Content-Type": "application/json" ]
             )
         }
-        
         
         let request = FlickrAPIClient.fetchResults(searchTerm, page: 0, completionBlock: { (response) in
             let secondPhoto = response.photos?[0]
@@ -396,7 +395,6 @@ class Coding_Challenge_MGTests: XCTestCase {
             return OHHTTPStubsResponse(error:notConnectedError)
         }
         
-        
         let request = FlickrAPIClient.fetchResults(searchTerm, page: 0, completionBlock: { (response) in
             XCTAssert(false)
         }) { (error) in
@@ -414,7 +412,7 @@ class Coding_Challenge_MGTests: XCTestCase {
     }
     
     //Testing responses from server with wrong data structure
-    func testApiClientSearchWrongResponseExample(){
+    func testAPIClientSearchWrongResponseExample(){
         let searchTerm = "Kitten"
         
         let errorExpectation = expectationWithDescription("Returning incorrect data structure from server")
