@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0F134D0C0400285D584DA40E1AE644BB336B0C40",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1EE641D65176D87DAD6B82A7B90B4B0865714046" : 0,
+    "0F134D0C0400285D584DA40E1AE644BB336B0C40" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D8865F21-5374-48EB-B455-197782125F1F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1EE641D65176D87DAD6B82A7B90B4B0865714046" : "..\/..",
+    "0F134D0C0400285D584DA40E1AE644BB336B0C40" : "Github\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Coding Challenge MG",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Coding Challenge MG.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gasparuff\/FlickrPhotoSearch",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0F134D0C0400285D584DA40E1AE644BB336B0C40"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/gasparuff\/lieco-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1EE641D65176D87DAD6B82A7B90B4B0865714046"
+    }
+  ]
+}

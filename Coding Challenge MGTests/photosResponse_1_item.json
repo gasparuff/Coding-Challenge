@@ -1,0 +1,22 @@
+{
+    "photos":{
+        "page":1,
+        "pages":1,
+        "perpage":20,
+        "total":"1",
+        "photo":[
+                 {
+                 "id":"27817538421",
+                 "owner":"41569704@N00",
+                 "secret":"077c5040fa",
+                 "server":"7360",
+                 "farm":8,
+                 "title":"Ellen on her favorite hammock",
+                 "ispublic":1,
+                 "isfriend":0,
+                 "isfamily":0
+                 }
+                 ]
+    },
+    "stat":"ok"
+}
