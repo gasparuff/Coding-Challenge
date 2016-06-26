@@ -115,4 +115,4 @@ Architecture
 --------
 To make sure all the images are laid out nicely, I have subclassed `UICollectionViewLayout`, where I am calculating the position for every image in the `UICollectionView`. The standard `UICollectionViewFlowLayout` had the big disadvantage, that all items were lined up evenly, which resulted in having vertical spaces between images, since these images don't share the same aspect ratio and the `UICollectionViewFlowLayout` does not take care of that. 
 
-All network requests are made using Alamofire.
+Network requests are made using Alamofire.
